@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompts Profissionais de IA - Venda Online</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            color: #555;
+        }
+
+        .btn-comprar {
+            display: inline-block;
+            background: #ff6b6b;
+            color: white;
+            padding: 18px 40px;
+            font-size: 1.3rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            margin: 20px 0;
+        }
+
+        .btn-comprar:hover {
+            background: #ff5252;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(255, 107, 107, 0.6);
+        }
+
+        section {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 2rem;
+        }
+
+        ul {
+            padding-left: 30px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        .beneficio {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+
+        .beneficio h3 {
+            color: #ff6b6b;
+            margin-right: 15px;
+            font-size: 1.3rem;
+        }
+
+        blockquote {
+            font-style: italic;
+            padding: 20px;
+            background: #f8f9fa;
+            border-left: 5px solid #ff6b6b;
+            margin: 20px 0;
+            border-radius: 0 10px 10px 0;
+        }
+
+        ol {
+            padding-left: 30px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            margin-top: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .btn-comprar {
+                padding: 15px 30px;
+                font-size: 1.1rem;
+            }
+
+            section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Transforme sua Produtividade com Prompts Profissionais de IA</h1>
+            <p>Descubra como prompts otimizados podem revolucionar seu trabalho e economizar horas por dia</p>
+            <a href="https://pay.cakau.com.br/prompt-ia" class="btn-comprar">COMPRAR AGORA - R$ 19,90</a>
+        </header>
+
+        <section>
+            <h2>O Que Você Receberá?</h2>
+            <ul>
+                <li>30 prompts prontos para uso em diferentes áreas (marketing, escrita, análise de dados)</li>
+                <li>Guia completo de como criar prompts eficazes</li>
+                <li>Acesso vitalício a novos prompts e atualizações</li>
+                <li>Templates personalizáveis para diferentes necessidades</li>
+                <li>Suporte exclusivo para dúvidas sobre IA</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Para Quem É Ideal?</h2>
+            <ul>
+                <li>Freelancers e criadores de conteúdo</li>
+                <li>Empreendedores e gestores</li>
+                <li>Profissionais de marketing digital</li>
+                <li>Estudantes e entusiastas de IA</li>
+                <li>Equipes que buscam otimizar processos</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Depoimentos</h2>
+            <blockquote>
+                "Esses prompts economizaram mais de 10 horas por semana para minha equipe. A qualidade do conteúdo
+melhorou significativamente!" – Ana R.
+            </blockquote>
+            <blockquote>
+                "Excelente investimento! Os prompts são práticos e diretos ao ponto. Recomendo a todos que
+trabalham com IA." – Carlos M.
+            </blockquote>
+        </section>
+
+        <section>
+            <h2>Como Funciona?</h2>
+            <ol>
+                <li>Clique no botão "COMPRAR AGORA"</li>
+                <li>Preencha seus dados de pagamento</li>
+                <li>Receba acesso imediato ao kit completo</li>
+                <li>Utilize os prompts diretamente em suas atividades</li>
+            </ol>
+            <a href="https://pay.cakau.com.br/prompt-ia" class="btn-comprar">COMPRAR AGORA - R$ 19,90</a>
+        </section>
+
+        <section>
+            <h2>Perguntas Frequentes</h2>
+            <p><strong>Posso usar os prompts em projetos comerciais?</strong><br>
+            Sim! Todos os prompts podem ser utilizados livremente em qualquer tipo de projeto.</p>
+
+            <p><strong>Como faço para acessar o conteúdo após a compra?</strong><br>
+            Após o pagamento, você receberá um link direto para download e acesso ao kit completo.</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2023 Todos os direitos reservados</p>
+            <a href="https://pay.cakau.com.br/prompt-ia" class="btn-comprar">COMPRAR AGORA - R$ 19,90</a>
+        </footer>
+    </div>
+</body>
+</html>
