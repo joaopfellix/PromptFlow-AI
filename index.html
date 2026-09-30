@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prompts Profissionais de IA - Venda Online</title>
+    <title>PromptFlow-AI - Sua Plataforma de Inteligência Artificial</title>
     <style>
         * {
             margin: 0;
@@ -13,7 +13,7 @@
         }
 
         body {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background-color: #f8f9fa;
             color: #333;
             line-height: 1.6;
         }
@@ -25,124 +25,135 @@
         }
 
         header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem 0;
             text-align: center;
-            padding: 50px 20px;
-            background: rgba(255, 255, 255, 0.9);
-            border-radius: 15px;
-            margin-bottom: 30px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
 
         h1 {
-            font-size: 2.8rem;
-            margin-bottom: 20px;
-            color: #2c3e50;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
         }
 
-        p {
+        .subtitle {
             font-size: 1.2rem;
-            margin-bottom: 30px;
-            color: #555;
+            opacity: 0.9;
         }
 
-        .btn-comprar {
-            display: inline-block;
-            background: #ff6b6b;
-            color: white;
-            padding: 18px 40px;
-            font-size: 1.3rem;
-            font-weight: bold;
-            text-decoration: none;
-            border-radius: 50px;
-            box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
-            transition: all 0.3s ease;
-            border: none;
-            cursor: pointer;
-            margin: 20px 0;
-        }
-
-        .btn-comprar:hover {
-            background: #ff5252;
-            transform: translateY(-3px);
-            box-shadow: 0 8px 20px rgba(255, 107, 107, 0.6);
-        }
-
-        section {
-            background: rgba(255, 255, 255, 0.95);
-            padding: 30px;
-            border-radius: 15px;
-            margin-bottom: 30px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        .section {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
         }
 
         h2 {
-            color: #2c3e50;
-            margin-bottom: 20px;
+            color: #667eea;
+            margin-bottom: 1.5rem;
             font-size: 2rem;
         }
 
-        ul {
-            padding-left: 30px;
-            margin-bottom: 20px;
+        h3 {
+            color: #764ba2;
+            margin: 1.5rem 0 1rem 0;
         }
 
-        li {
-            margin-bottom: 10px;
+        p {
+            margin-bottom: 1rem;
             font-size: 1.1rem;
         }
 
-        .beneficio {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: 20px;
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
         }
 
-        .beneficio h3 {
-            color: #ff6b6b;
-            margin-right: 15px;
-            font-size: 1.3rem;
-        }
-
-        blockquote {
-            font-style: italic;
-            padding: 20px;
+        .feature-card {
             background: #f8f9fa;
-            border-left: 5px solid #ff6b6b;
-            margin: 20px 0;
-            border-radius: 0 10px 10px 0;
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: center;
+            transition: transform 0.3s ease;
         }
 
-        ol {
-            padding-left: 30px;
-            margin-bottom: 20px;
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
 
-        li {
-            margin-bottom: 10px;
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: #667eea;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 1rem 0;
+            transition: transform 0.3s ease;
+            border: none;
+            cursor: pointer;
             font-size: 1.1rem;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+        }
+
+        .testimonials {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            margin: 2rem 0;
+        }
+
+        .testimonial {
+            background: rgba(255,255,255,0.1);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+
+        .contact-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            text-align: center;
         }
 
         footer {
             text-align: center;
-            padding: 30px;
-            background: rgba(255, 255, 255, 0.9);
-            border-radius: 15px;
-            margin-top: 30px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            padding: 2rem 0;
+            color: #666;
+            border-top: 1px solid #eee;
+            margin-top: 2rem;
         }
 
         @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
             h1 {
                 font-size: 2rem;
             }
 
-            .btn-comprar {
-                padding: 15px 30px;
-                font-size: 1.1rem;
-            }
-
-            section {
-                padding: 20px;
+            h2 {
+                font-size: 1.5rem;
             }
         }
     </style>
@@ -150,68 +161,104 @@
 <body>
     <div class="container">
         <header>
-            <h1>Transforme sua Produtividade com Prompts Profissionais de IA</h1>
-            <p>Descubra como prompts otimizados podem revolucionar seu trabalho e economizar horas por dia</p>
-            <a href="https://pay.cakto.com.br/ctwkswx_1102698" class="btn-comprar">COMPRAR AGORA - R$ 19,90</a>
+            <h1>PromptFlow-AI</h1>
+            <p class="subtitle">Sua plataforma completa para inteligência artificial</p>
         </header>
 
-        <section>
-            <h2>O Que Você Receberá?</h2>
-            <ul>
-                <li>30 prompts prontos para uso em diferentes áreas (marketing, escrita, análise de dados)</li>
-                <li>Guia completo de como criar prompts eficazes</li>
-                <li>Acesso vitalício a novos prompts e atualizações</li>
-                <li>Templates personalizáveis para diferentes necessidades</li>
-                <li>Suporte exclusivo para dúvidas sobre IA</li>
+        <section class="section">
+            <h2>Bem-vindo ao PromptFlow-AI</h2>
+            <p><strong>PromptFlow-AI</strong> é a plataforma líder em inteligência artificial
+que transforma sua criatividade em resultados poderosos. Nossa solução revolucionária permite
+que qualquer pessoa, desde iniciantes até especialistas, crie prompts eficazes para IA com
+facilidade e precisão.</p>
+        </section>
+
+        <section class="section">
+            <h2>O Que Oferecemos</h2>
+
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Ferramentas Avançadas</h3>
+                    <p>Editor de prompts intuitivo, biblioteca de templates prontos, análise de
+performance e integração com as principais plataformas AI.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">📚</div>
+                    <h3>Conteúdo Premium</h3>
+                    <p>Tutoriais passo a passo, cases de sucesso, dicas e truques exclusivos, e
+comunidade de usuários ativa.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">💡</div>
+                    <h3>Soluções Personalizadas</h3>
+                    <p>Criação de prompts para marketing, desenvolvimento de conteúdo, análise
+de dados e automação de tarefas.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Por Que Escolher o PromptFlow-AI?</h2>
+            <ul style="padding-left: 1.5rem;">
+                <li><strong>Fácil de usar</strong> - Interface simples e intuitiva</li>
+                <li><strong>Eficiente</strong> - Resultados em minutos, não horas</li>
+                <li><strong>Atualizado</strong> - Conteúdo sempre fresco e relevante</li>
+                <li><strong>Suporte especializado</strong> - Equipe dedicada para te ajudar</li>
             </ul>
         </section>
 
-        <section>
-            <h2>Para Quem É Ideal?</h2>
-            <ul>
-                <li>Freelancers e criadores de conteúdo</li>
-                <li>Empreendedores e gestores</li>
-                <li>Profissionais de marketing digital</li>
-                <li>Estudantes e entusiastas de IA</li>
-                <li>Equipes que buscam otimizar processos</li>
-            </ul>
+        <section class="section">
+            <h2>Comece Hoje Mesmo</h2>
+            <p>Junte-se a milhares de usuários que já transformaram suas ideias em realidade com
+o PromptFlow-AI.</p>
+
+            <div style="text-align: center; margin: 2rem 0;">
+                <a href="#" class="cta-button">Teste grátis por 7 dias</a>
+                <p style="margin-top: 1rem;">Plano mensal a partir de R$ 29,90</p>
+                <p>Acesso ilimitado ao conteúdo premium</p>
+            </div>
         </section>
 
-        <section>
+        <section class="testimonials">
             <h2>Depoimentos</h2>
-            <blockquote>
-                "Esses prompts economizaram mais de 10 horas por semana para minha equipe. A qualidade do conteúdo
-melhorou significativamente!" – Ana R.
-            </blockquote>
-            <blockquote>
-                "Excelente investimento! Os prompts são práticos e diretos ao ponto. Recomendo a todos que
-trabalham com IA." – Carlos M.
-            </blockquote>
+
+            <div class="testimonial">
+                <p>"O PromptFlow-AI mudou completamente minha forma de trabalhar com IA.
+Recomendo fortemente!"</p>
+                <p><strong>Ana Silva, Designer Gráfica</strong></p>
+            </div>
+
+            <div class="testimonial">
+                <p>"Com o PromptFlow-AI, consegui automatizar processos que antes levavam horas
+em minutos."</p>
+                <p><strong>Carlos Mendes, Empreendedor</strong></p>
+            </div>
         </section>
 
-        <section>
-            <h2>Como Funciona?</h2>
-            <ol>
-                <li>Clique no botão "COMPRAR AGORA"</li>
-                <li>Preencha seus dados de pagamento</li>
-                <li>Receba acesso imediato ao kit completo</li>
-                <li>Utilize os prompts diretamente em suas atividades</li>
-            </ol>
-            <a https://pay.cakto.com.br/ctwkswx_1102698" class="btn-comprar">COMPRAR AGORA - R$ 19,90</a>
-        </section>
+        <section class="section">
+            <h2>Contato</h2>
 
-        <section>
-            <h2>Perguntas Frequentes</h2>
-            <p><strong>Posso usar os prompts em projetos comerciais?</strong><br>
-            Sim! Todos os prompts podem ser utilizados livremente em qualquer tipo de projeto.</p>
-
-            <p><strong>Como faço para acessar o conteúdo após a compra?</strong><br>
-            Após o pagamento, você receberá um link direto para download e acesso ao kit completo.</p>
+            <div class="contact-info">
+                <div>
+                    <p>📧 Email: contato@promptflow-ai.com.br</p>
+                </div>
+                <div>
+                    <p>📱 WhatsApp: (11) 99999-9999</p>
+                </div>
+                <div>
+                    <p>📍 Endereço: São Paulo, SP</p>
+                </div>
+            </div>
         </section>
 
         <footer>
-            <p>&copy; 2023 Todos os direitos reservados</p>
-            <a href="https://pay.cakto.com.br/ctwkswx_1102698" class="btn-comprar">COMPRAR AGORA - R$ 19,90</a>
+            <p><strong>PromptFlow-AI - Sua plataforma de inteligência artificial
+completa</strong></p>
+            <p>Transformando ideias em resultados com a tecnologia mais avançada do mercado</p>
+            <p>© 2023 PromptFlow-AI. Todos os direitos reservados.</p>
         </footer>
     </div>
 </body>
